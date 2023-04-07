@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(6, 251, 141);
+    font-family: 'Alkatra', cursive;
+}
+h1
+{
+    color: rgb(39, 93, 254);
+    background-color: rgba(255, 255, 255, 0.722);
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+#show_sketch
+{
+    float: right;
+    font-weight: 100;
+}
+#name
+{
+    color: red;
+    font-size: 25px;
+    font-family: comic;
+}
+#score
+{
+    float: left;
+}
+#time
+{
+    float: right;
+}
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 170px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 100px rgb(244, 3, 3);}
+    to{box-shadow: 1px 1px 100px rgb(209, 227, 7);}
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
